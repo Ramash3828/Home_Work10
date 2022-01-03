@@ -1,0 +1,139 @@
+@media only screen and (min-width: 1366px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {}
+
+@media only screen and (min-width: 620px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {}
+
+@media only screen and (max-width: 479px) {
+    .container {
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .logo-area a img {
+        width: 100px;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        color: #89949C;
+        font-size: 18px;
+        display: inline-block;
+        padding: 5px 16px;
+        border-right: 1px solid #ddd;
+        transition: all .35s ease-in-out;
+        -webkit-transition: all .35s ease-in-out;
+        -moz-transition: all .35s ease-in-out;
+        -ms-transition: all .35s ease-in-out;
+        -o-transition: all .35s ease-in-out;
+    }
+    .menu {
+        margin-bottom: 100px;
+    }
+    #hero-area h1 {
+        font-size: 40px;
+        color: #89949c;
+    }
+    #hero-area h2 {
+        color: #89949c;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .hero-image img {
+        width: 100%;
+        margin-top: 0;
+    }
+    .myService h2 {
+        font-size: 42px;
+        color: #89949c;
+        margin-bottom: 50px;
+    }
+    .super {
+        vertical-align: super;
+        color: #00cccb;
+        font-size: 22px;
+        display: inline-block;
+    }
+    .btn-left,
+    .btn-right {
+        padding: 7px 60px;
+        font-size: 16px;
+        color: #89949c;
+        border: 1px solid #89949c;
+        background-color: #ffffff;
+        margin-bottom: 50px;
+    }
+    #service-area {
+        padding-bottom: 50px;
+    }
+    #project-area {
+        padding: 50px 0;
+        background-color: #FBFBFC;
+    }
+    #project-area h2 {
+        color: #39444c;
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+    .col-md-6.projec-image img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .portfolio {
+        padding: 50px 0;
+        border-top: 1px solid #ddd;
+    }
+    .pro-title h2 {
+        font-size: 42px !important;
+        color: #39444c;
+        margin-bottom: 50px;
+    }
+    .supe {
+        display: inline-block;
+        vertical-align: super;
+        font-size: 22px !important;
+        color: #00cccb !important;
+    }
+    .claient-img img {
+        width: 180px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #brand-area .single-brand img {
+        width: 100%;
+        opacity: .5;
+        transition: all .35s ease;
+        -webkit-transition: all .35s ease;
+        -moz-transition: all .35s ease;
+        -ms-transition: all .35s ease;
+        -o-transition: all .35s ease;
+        margin-bottom: 50px;
+    }
+    form {
+        margin-top: 100px;
+    }
+    footer .footer-menu a {
+        text-decoration: none;
+        color: #abb3ba;
+        font-weight: bolder;
+        font-size: 16px;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .col-md-3 a {
+        text-align: center;
+        display: block;
+    }
+    .social-media a {
+        display: inline-block;
+    }
+    .social-media {
+        text-align: center;
+        display: block ruby;
+    }
+}
